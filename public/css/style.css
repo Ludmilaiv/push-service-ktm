@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: rgb(67,4,21);
+    background: linear-gradient(180deg, rgba(67,4,21,1) 0%, rgba(44,3,13,1) 61%, rgba(13,1,1,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    font-family: "Myriad Pro";
+}
+
+.title {
+    background-color: #683642;
+    border-radius: 5px;
+    font-size: 1.7em;
+    padding: 10px 50px 10px 10px;
+    margin: 10px;
+}
+
+.close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    border: white 1px solid;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+}
+
+.push-wrapper {
+    border: white 1px solid;
+    height: 80vh;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+}
+
+.push-button, .tg-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #1e1e1e;
+    border: white 1px solid;
+}
+
+.push-button_active, .tg-button_active {
+    border: rgb(39, 218, 63) 1px solid;
+}
+
+.push-button__img, .tg-button__img {
+    height: 50%;
+    width: 50%;
+    font-size: 27px;
+}
+
+.error {
+    height: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indianred;
+}
+
+.mess {
+    height: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}

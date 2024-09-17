@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/Myriad Pro Bold Italic.ttf");
+    font-weight: bold;
+    font-style: italic;
+  }
+    
+  
+  @font-face {
+    font-family: "DS-Digital";
+    src: url('../fonts/ds-digital_bold_italic.eot');
+    src: url('../fonts/ds-digital_bold_italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ds-digital_bold_italic.woff2') format('woff2'),
+    url('../fonts/ds-digital_bold_italic.woff') format('woff'), 
+    url('../fonts/ds-digital_bold_italic.ttf') format('truetype'),
+    url('../fonts/ds-digital_bold_italic.svg#ds-digital_bold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Segment7';
+    src: url('../fonts/Segment7.woff') format('woff'),
+    url('../fonts/Segment7.svg#Segment7') format('svg'),
+    url('../fonts/Segment7.eot'), url('./fonts/Segment7.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Segment7.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+    
+  
+  @font-face {
+    font-family: 'Exo 2';
+    src: url('../fonts/Exo2-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'LCD Nova';
+    src: url('../fonts/a_lcdnova.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }

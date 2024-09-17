@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ef40539f-6d47-42ce-895d-a13200804923" name="biomatic" url="http://http://89.111.173.89:5000/">
+        <fileTransfer rootFolder="/root/src" accessType="SFTP" host="89.111.173.89" port="22" sshConfigId="568b22da-e7bd-4ed4-b94d-26baed076af8" sshConfig="root@89.111.173.89:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
