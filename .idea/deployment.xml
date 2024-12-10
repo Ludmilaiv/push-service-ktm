@@ -10,6 +10,7 @@
           </mappings>
           <excludedPaths>
             <excludedPath path="/node_modules" />
+            <excludedPath path="/package-lock.json" />
           </excludedPaths>
         </serverdata>
       </paths>
